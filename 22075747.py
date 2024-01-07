@@ -38,7 +38,7 @@ def plot_pie_chart(data):
     plt.title('Distribution of Company Locations', fontsize=18)
 
     # Show the plot
-    plt.savefig('company_locations_pie_chart.png', bbox_inches='tight')
+    plt.savefig('22075747.png', bbox_inches='tight')
 
 def main():
     data = prepare_data()
@@ -74,7 +74,7 @@ ax.grid(True, linestyle='--', alpha=0.7)
 ax.legend()
 
 #Show plot
-plt.savefig('Employment_Type_Count.png', bbox_inches='tight')
+plt.savefig('22075747.png', bbox_inches='tight')
 
 
 
@@ -98,7 +98,7 @@ plt.xlabel('Sum of Remote Ratio', fontsize=14)
 plt.ylabel('Job Titles', fontsize=14)
 plt.title('Sum of Remote Ratio for Different Job Titles', fontsize=16, fontweight='bold')
 plt.grid(axis='x', linestyle='--', alpha=0.2)
-plt.savefig('Sum_of_Remote_Ratio.png', bbox_inches='tight')
+plt.savefig('22075747.png', bbox_inches='tight')
 
 
 
@@ -123,7 +123,7 @@ plt.grid(axis='x', linestyle='--', alpha=0.6)
 # Adding data values on top of the bars
 for i, v in enumerate(values):
     plt.text(v + 1000, i, f'${v:,.0f}', va='center', fontsize=12)
-plt.savefig('Average_Salary_for_Different_Job.png', bbox_inches='tight')
+plt.savefig('22075747.png', bbox_inches='tight')
 
 
 
